@@ -1,3 +1,3 @@
 Google Homepage Project
 
-From The Odin Project: https://github.com/Jrdn221/google-homepage.git
+From The Odin Project: http://www.theodinproject.com/web-development-101/html-css
