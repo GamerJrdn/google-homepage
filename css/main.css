@@ -27,6 +27,16 @@ body{
   font-weight: bold;
   line-height: 28px;
   padding: 0 12px;
+  font-family: arial, sans-serif;
+}
+
+a#appIcon{
+  background-image: url("../images/app_icon.png");
+  width:16px;
+  height:18px;
+  display: inline-block;
+  background-repeat: no-repeat;
+  vertical-align: middle;
 }
 
 .clearBoth{
@@ -68,4 +78,31 @@ input[type="text"]#searchBox{
   margin: 11px 4px;
   min-width: 54px;
   padding: 0 16px;
+}
+
+#bottomNav{
+  height: 5%;
+  position: fixed;
+  top: 94%;
+  left: 0;
+  width:100%;
+  background-color: #f2f2f2;
+  padding-top: 1%;
+  border-top: 1px solid #e4e4e4;
+}
+
+#bottomNav a{
+  color: #666666;
+  text-decoration: none;
+  margin-right: 1em;
+  font-size: small;
+}
+
+#leftSide{
+  float: left;
+  margin-left: 1em;
+}
+
+#rightSide{
+  float: right;
 }
